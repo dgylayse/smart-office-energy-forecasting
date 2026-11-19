@@ -1,0 +1,17 @@
+AKILLI OFIS ENERJI TAHMINI - TEKNIK BILGILER
+Python: 3.11.9
+pandas: 3.1.1
+numpy: 2.4.6
+matplotlib: 3.11.2
+seaborn: 0.13.2
+scikit-learn: 1.9.1
+notebook: 7.6.5
+Kaynak: UCI Appliances Energy Prediction
+Atif: Candanedo, L. (2017). Appliances Energy Prediction [Dataset]. UCI Machine Learning Repository.
+DOI: 10.24432/C5VC8G
+Lisans: CC BY 4.0
+Dosya: energydata_complete.csv
+Indirme tarihi: 2026-11-19
+Ham satir: 19735
+Gecerli gun: 136
+Model gun sayisi: 129

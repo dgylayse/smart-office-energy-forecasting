@@ -1,0 +1,21 @@
+﻿Ozellik,Kaynak_Kolon,Hesaplama,Birim,Tahmin_Aninda_Mevcut
+weekday,date,Haftanin gunu (0=Pazartesi),0-6,Evet - gecmis olcum veya takvim bilgisi
+month,date,Tarihten ay bilgisini al,1-12,Evet - gecmis olcum veya takvim bilgisi
+is_weekend,date,"Cumartesi/Pazar ise 1, diger gunler 0",0/1,Evet - gecmis olcum veya takvim bilgisi
+lag_1,Appliances,E(t-1),kWh,Evet - gecmis olcum veya takvim bilgisi
+lag_7,Appliances,E(t-7),kWh,Evet - gecmis olcum veya takvim bilgisi
+rolling_3_mean,Appliances,Onceki 3 gunun ortalamasi,kWh,Evet - gecmis olcum veya takvim bilgisi
+rolling_7_mean,Appliances,Onceki 7 gunun ortalamasi,kWh,Evet - gecmis olcum veya takvim bilgisi
+rolling_7_std,Appliances,Onceki 7 gunun ornek std sapmasi,kWh,Evet - gecmis olcum veya takvim bilgisi
+rolling_7_max,Appliances,Onceki 7 gunun maksimumu,kWh,Evet - gecmis olcum veya takvim bilgisi
+out_temp_mean_prev1,T_out,Onceki gun sicaklik ortalamasi,C,Evet - gecmis olcum veya takvim bilgisi
+out_temp_min_prev1,T_out,Onceki gun minimum sicaklik,C,Evet - gecmis olcum veya takvim bilgisi
+out_temp_max_prev1,T_out,Onceki gun maksimum sicaklik,C,Evet - gecmis olcum veya takvim bilgisi
+out_temp_range_prev1,T_out,Onceki gun maksimum - minimum,C,Evet - gecmis olcum veya takvim bilgisi
+indoor_temp_mean_prev1,T1,Onceki gun ic sicaklik ortalamasi,C,Evet - gecmis olcum veya takvim bilgisi
+temp_gap_prev1,"T1, T_out",Onceki gun ortalama ic - dis sicaklik,C,Evet - gecmis olcum veya takvim bilgisi
+out_humidity_mean_prev1,RH_out,Onceki gun dis nem ortalamasi,%,Evet - gecmis olcum veya takvim bilgisi
+indoor_humidity_mean_prev1,RH_1,Onceki gun ic nem ortalamasi,%,Evet - gecmis olcum veya takvim bilgisi
+out_humidity_std_prev1,RH_out,Onceki gun dis nem std sapmasi,yuzde puan,Evet - gecmis olcum veya takvim bilgisi
+indoor_humidity_std_prev1,RH_1,Onceki gun ic nem std sapmasi,yuzde puan,Evet - gecmis olcum veya takvim bilgisi
+lights_kwh_prev1,lights,Onceki gun toplam Wh / 1000,kWh,Evet - gecmis olcum veya takvim bilgisi
